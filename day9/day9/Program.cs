@@ -81,8 +81,8 @@ class Program
                     break;
                 case "4":
 
-                    do
-                    {
+
+
                      Console.WriteLine("bolme prosesi!");
                      Console.Write("1 ci ededi daxil edin: ");
                      a = Convert.ToInt32(Console.ReadLine());
@@ -97,9 +97,6 @@ class Program
                         {
                             Console.WriteLine("0 a bolmek olmaz!");
                         }
-
-                    } while (b == 0);
-
 
                     break;
                 case "0":
